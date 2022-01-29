@@ -13,9 +13,7 @@ const SSG: FC<IArticles> = ({ articles }) => {
 };
 
 export const getStaticProps = async () => {
-  const res = await fetch(
-    `https://jsonplaceholder.typicode.com/posts?_limit=6`
-  );
+  const res = await fetch(`http://localhost:8000/articles?_limit=6`);
   const articles: articles = await res.json();
 
   return {

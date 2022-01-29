@@ -18,7 +18,7 @@ const Article: FC<IArticle> = ({ article }) => {
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const res = await fetch(
-    `https://jsonplaceholder.typicode.com/posts/${context.params?.id}`
+    `http://localhost:8000/articles/${context.params?.id}`
   );
 
   const article: article = await res.json();
@@ -30,7 +30,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts`);
+  const res = await fetch(`http://localhost:8000/articles`);
 
   const articles: article[] = await res.json();
   const ids = articles.map((article) => article.id);

@@ -15,9 +15,7 @@ const SSP: FC<IArticles> = ({ articles }) => {
 
 // basically do this on page load or page refresh in browser
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  const res = await fetch(
-    `https://jsonplaceholder.typicode.com/posts?_limit=3`
-  );
+  const res = await fetch(`http://localhost:8000/articles?_limit=3`);
 
   const articles: articles = await res.json();
 

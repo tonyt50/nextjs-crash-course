@@ -18,7 +18,7 @@ const GSP: FC<IArticlesAndCount> = ({ articles, articlesCount }) => {
 };
 
 export const getStaticProps = async () => {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts`);
+  const res = await fetch(`http://localhost:8000/articles`);
   let articles: articles = await res.json();
   const articlesCount: number = articles.length;
   articles = articles.slice(0, displayCount);

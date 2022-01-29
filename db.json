@@ -1,0 +1,67 @@
+{
+  "todos": [
+    { "id": 1, "title": "washup", "author": "tonyt" },
+    { "id": 2, "title": "read aa stuff", "author": "tonyt" },
+    { "id": 3, "title": "clean teeth more", "author": "tonyt" },
+    { "id": 4, "title": "face cream", "author": "tonyt" },
+    { "id": 5, "title": "vape", "author": "tonyt" },
+    { "id": 6, "title": "pray", "author": "tonyt" }
+  ],
+  "comments": [
+    { "id": 1, "body": "Need more fairy liquid", "todos": 1 },
+    { "id": 2, "body": "we have a extra tub still", "todos": 3 }
+  ],
+  "profile": { "name": "tonyt", "age": 61 },
+  "articles": [
+    {
+      "id": 1,
+      "title": "artilcle number 1 title",
+      "body": "article number 1 body"
+    },
+    {
+      "id": 2,
+      "title": "artilcle number 2 title",
+      "body": "article number 2 body"
+    },
+    {
+      "id": 3,
+      "title": "artilcle number 3 title",
+      "body": "article number 3 body"
+    },
+    {
+      "id": 4,
+      "title": "artilcle number 4 title",
+      "body": "article number 4 body"
+    },
+    {
+      "id": 5,
+      "title": "artilcle number 5 title",
+      "body": "article number 5 body"
+    },
+    {
+      "id": 6,
+      "title": "artilcle number 6 title",
+      "body": "article number 6 body"
+    },
+    {
+      "id": 7,
+      "title": "artilcle number 7 title",
+      "body": "article number 7 body"
+    },
+    {
+      "id": 8,
+      "title": "artilcle number 8 title",
+      "body": "article number 8 body"
+    },
+    {
+      "id": 9,
+      "title": "artilcle number 9 title",
+      "body": "article number 9 body"
+    },
+    {
+      "id": 10,
+      "title": "artilcle number 10 title",
+      "body": "article number 10 body"
+    }
+  ]
+}

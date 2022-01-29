@@ -7,7 +7,8 @@
     "build": "next build",
     "export": "next build && next export",
     "start": "next build && next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "jsonserver": "json-server --watch db.json --port 8000"
   },
   "dependencies": {
     "next": "11.1.0",
@@ -20,6 +21,7 @@
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.0",
     "serverless-webrtc-react": "^1.0.11",
+    "swr": "^1.1.2",
     "typescript": "4.3.5"
   }
 }

@@ -1,11 +1,11 @@
 import { FC } from "react";
 import GSPItem from "./GSPItem";
 import { IArticles } from "../types/index";
-import articleStyles from "../styles/Article.module.css";
+import GridStyles from "../styles/Grid.module.css";
 
 const GSPList: FC<IArticles> = ({ articles }) => {
   return (
-    <div className={articleStyles.grid}>
+    <div className={GridStyles.grid}>
       {articles.map((article) => (
         <GSPItem key={article.id} article={article} />
       ))}
